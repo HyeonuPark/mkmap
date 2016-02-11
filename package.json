@@ -1,0 +1,35 @@
+{
+  "name": "mkmap",
+  "version": "1.0.0",
+  "description": "Multi-key map",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "mocha test --compilers js:babel-register",
+    "build": "babel src --out-dir bin"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hyeonupark/mkmap.git"
+  },
+  "keywords": [
+    "map",
+    "multi-key-map"
+  ],
+  "author": "HyeonuPark",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hyeonupark/mkmap/issues"
+  },
+  "homepage": "https://github.com/hyeonupark/mkmap#readme",
+  "devDependencies": {
+    "babel-cli": "^6.5.1",
+    "babel-core": "^6.5.1",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-register": "^6.5.1",
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  },
+  "dependencies": {
+    "immutable": "^3.7.6"
+  }
+}
