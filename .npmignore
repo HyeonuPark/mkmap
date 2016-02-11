@@ -1,4 +1,4 @@
 **
-!bin
+!bin/**
 !package.json
 !REDME.md
